@@ -1,0 +1,56 @@
+html{
+    background-color: #f2f2f2;
+}
+
+*{
+    font-family:'Open Sans', 'Inter', 'Roboto',Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+header{
+    padding:5% 10% 2% 10%;
+}
+h1{
+    text-transform: capitalize;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10%;
+    padding-top: 0;
+}
+h3{
+    font-variant: small-caps;
+    margin: 50px;
+}
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+summary{
+    list-style-type:circle;
+    text-transform: uppercase;
+}
+details{
+    padding: 10px;
+} 
+li{
+    padding: 10px;
+    list-style-type:square;
+}
+a{
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+a{
+    color: #555570;
+}
+a:hover{
+    color: #b801d8;
+}
